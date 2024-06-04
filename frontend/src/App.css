@@ -16,3 +16,16 @@
 .title_img:nth-child(3):hover {
   background-color: rgb(245, 112, 112);
 }
+
+.glow {
+  animation: glow-animation 1.5s infinite alternate;
+}
+
+@keyframes glow-animation {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 46, 46, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(238, 207, 207, 0.318);
+  }
+}

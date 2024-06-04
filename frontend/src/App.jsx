@@ -25,7 +25,12 @@ function App() {
         style={{ "--wails-draggable": "drag", userSelect: "none" }}
       >
         <div className="ml-1 flex items-center gap-2">
-          <img src={iconSVG} className="w-6 h-6" alt="logo"></img>
+          <img
+            src={iconSVG}
+            className="w-6 h-6"
+            alt="logo"
+            draggable="false"
+          ></img>
           <div className="text-sm font-bold">v2rayKM</div>
         </div>
         <div
@@ -36,11 +41,13 @@ function App() {
             src={minSVG}
             onClick={handleMinimize}
             className="title_img"
+            draggable="false"
           ></img>
           <img
             src={maxSVG}
             onClick={handleMaximize}
             className="title_img"
+            draggable="false"
           ></img>
           <img src={closeSVG} onClick={handleClose} className="title_img"></img>
         </div>
