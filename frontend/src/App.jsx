@@ -3,7 +3,7 @@ import iconSVG from "./assets/images/icon.svg"
 import minSVG from "./assets/images/min.svg"
 import maxSVG from "./assets/images/max.svg"
 import closeSVG from "./assets/images/close.svg"
-import Index from "."
+import Index from "./index"
 
 function App() {
   const handleMinimize = () => {
